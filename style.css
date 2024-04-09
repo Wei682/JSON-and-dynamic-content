@@ -53,7 +53,7 @@ p{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1em;
-  grid-row-gap: 1em;
+  grid-row-gap: 3em;
   font-size: 1.2rem;
 }
 
@@ -66,4 +66,29 @@ p{
   color: #4d0505;
   border: 2px solid #dccdc2;
   height: 100%;
+}
+
+a{
+  color: #77619d;
+  text-decoration: underline;
+}
+
+
+a:hover {
+  color: #cc74a1;
+}
+
+a:active{
+	color: white;
+}
+
+.restaurantImageContainer{
+	margin-top: 0.8em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.restaurantImage{
+	width: 90%;
 }
