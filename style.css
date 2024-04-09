@@ -54,7 +54,7 @@ p{
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1em;
   grid-row-gap: 3em;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .contentItem {
@@ -95,6 +95,10 @@ a:active{
 }
 
 @media only screen and (max-width: 640px) {
+	body{
+		font-size: 12px;
+	}
+
   #restaurantGrid {
 	  grid-template-columns: 1fr;
 	}
