@@ -13,7 +13,7 @@ let restaurantDatabase = [
     "Category": "Japanese",
     // Image is from https://daigobrooklyn.com/catering/
     "Website" : "https://daigobrooklyn.com/",
-    "Image": "img/Daigo.jpg"
+    "Image": "Img/Daigo.jpg"
   },
   {
     "Name" : "DIG",
@@ -22,7 +22,7 @@ let restaurantDatabase = [
     "Category": "American",
     "Website" : "https://www.diginn.com/city-point",
     // Image is from https://www.downtownbrooklyn.com/listing/dig/
-    "Image": "img/DIG.jpeg"
+    "Image": "Img/DIG.jpeg"
   },
   {
     "Name" : "Kong Sihk Tong",
@@ -31,7 +31,7 @@ let restaurantDatabase = [
     "Category": "Chinese",
     "Website" : "https://kongsihktong.com/",
     // Image is from https://kongsihktong.com/
-    "Image": "img/Kong Sihk Tong.png"
+    "Image": "Img/Kong Sihk Tong.png"
   },
   {
     "Name" : "Han Dynasty",
@@ -40,7 +40,7 @@ let restaurantDatabase = [
     "Category": "Chinese",
     "Website" : "https://www.handynasty.net/location/han-dynasty-brooklyn/",
     // Image is from https://www.downtownbrooklyn.com/listing/han-dynasty/
-    "Image": "img/Han Dynasty.jpeg"
+    "Image": "Img/Han Dynasty.jpeg"
   },
   {
     "Name" : "Emily: West Village",
@@ -49,7 +49,7 @@ let restaurantDatabase = [
     "Category": "American",
     "Website" : "https://www.pizzalovesemily.com/location/west-village/",
     // Image is from https://ny.eater.com/2017/6/2/15727040/emily-manhattan-menu
-    "Image": "img/Emily.png"
+    "Image": "Img/Emily.png"
   },
   {
     "Name" : "Antoya Korean BBQ",
@@ -58,7 +58,7 @@ let restaurantDatabase = [
     "Category": "Korean",
     "Website" : "https://antoyabbq.com/",
     // Image is from https://www.facebook.com/Antoyabbq/photos/a.163163874341039/905323660125053/?type=3
-    "Image": "img/Antoya.jpeg"
+    "Image": "Img/Antoya.jpeg"
   },
   {
     "Name" : "Emporio",
@@ -67,7 +67,7 @@ let restaurantDatabase = [
     "Category": "Italian",
     "Website" : "https://www.emporiony.com/",
     // Image is from https://www.emporiony.com/
-    "Image": "img/Emporio.jpeg"
+    "Image": "Img/Emporio.jpeg"
   },
   {
     "Name" : "Soothr",
@@ -75,7 +75,7 @@ let restaurantDatabase = [
     "Address" : "204 E 13th St, New York, NY 10003",
     "Category": "Thailand",
     "Website" : "https://www.soothrnyc.com/",
-    "Image": "img/Soothr.jpeg"
+    "Image": "Img/Soothr.jpeg"
   },
 ];
 
