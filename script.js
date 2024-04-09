@@ -43,36 +43,39 @@ let restaurantDatabase = [
     "Image": "img/Han Dynasty.jpeg"
   },
   {
-    "Name" : "汉堡店",
-    "Location" : "",
-    "Address" : "",
-    "Category": "",
-    "Website" : "",
-    "Image": ""
+    "Name" : "Emily: West Village",
+    "Location" : "Manhattan",
+    "Address" : "35 Downing St, New York, NY 10014",
+    "Category": "American",
+    "Website" : "https://www.pizzalovesemily.com/location/west-village/",
+    // Image is from https://ny.eater.com/2017/6/2/15727040/emily-manhattan-menu
+    "Image": "img/Emily.png"
   },
   {
-    "Name" : "five senses",
-    "Location" : "",
-    "Address" : "",
-    "Category": "",
-    "Website" : "",
-    "Image": ""
+    "Name" : "Antoya Korean BBQ",
+    "Location" : "Manhattan",
+    "Address" : "37 W 32nd St, New York, NY 10001",
+    "Category": "Korean",
+    "Website" : "https://antoyabbq.com/",
+    // Image is from https://www.facebook.com/Antoyabbq/photos/a.163163874341039/905323660125053/?type=3
+    "Image": "img/Antoya.jpeg"
   },
   {
-    "Name" : "意大利饭店",
-    "Location" : "",
-    "Address" : "",
-    "Category": "",
-    "Website" : "",
-    "Image": ""
+    "Name" : "Emporio",
+    "Location" : "Manhattan",
+    "Address" : "231 Mott St, New York, NY 10012",
+    "Category": "Italian",
+    "Website" : "https://www.emporiony.com/",
+    // Image is from https://www.emporiony.com/
+    "Image": "img/Emporio.jpeg"
   },
   {
-    "Name" : "越南餐厅",
-    "Location" : "",
-    "Address" : "",
-    "Category": "",
-    "Website" : "",
-    "Image": ""
+    "Name" : "Soothr",
+    "Location" : "Manhattan",
+    "Address" : "204 E 13th St, New York, NY 10003",
+    "Category": "Thailand",
+    "Website" : "https://www.soothrnyc.com/",
+    "Image": "img/Soothr.jpeg"
   },
 ];
 
