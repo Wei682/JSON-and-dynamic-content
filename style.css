@@ -95,10 +95,7 @@ a:active{
 }
 
 @media only screen and (max-width: 640px) {
-  body{
-    font-size: 12px;
-  }
-
   #restaurantGrid {
 	  grid-template-columns: 1fr;
 	}
+}
