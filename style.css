@@ -31,6 +31,16 @@ p{
 	margin: 0.2em;
 }
 
+button{
+	font-size: 1.2em;
+	padding: 0.5em 0.6em;
+  color: #4d0505;
+  font-family: "Montserrat Alternates", sans-serif;
+  border-radius: 3px;
+	cursor: pointer;
+	background-color: #eed0b8; 
+}
+
 #header, #intro{
 	width: 80%;
 	display: flex;
@@ -80,6 +90,11 @@ a:hover {
 
 a:active{
 	color: white;
+}
+
+.Buttons{
+	display: flex;
+	gap: 0.5em;
 }
 
 .restaurantImageContainer{

@@ -1,9 +1,12 @@
+var allButtonElement = document.getElementById("allButton");
+var ManhattanButtonElement = document.getElementById("ManhattanButton");
+var BrooklynButtonElement = document.getElementById("BrooklynButton");
+
 AOS.init({
     duration: 800,
 });
 
 let restaurantGridElement = document.getElementById('restaurantGrid');
-
 
 let restaurantDatabase = [
   {
@@ -128,4 +131,38 @@ function createElementProper(incJSON) {
   /// Add the item to the page
   restaurantGridElement.appendChild(newContentElement);
 }
+
+allButtonElement.addEventListener("click", function(){
+  while (restaurantGridElement.firstChild) {
+    restaurantGridElement.removeChild(restaurantGridElement.firstChild);
+  }
+  restaurantGridElement = document.getElementById('restaurantGrid');
+  for (var i = 0; i < restaurantDatabase.length; i++) {
+    createElementProper(restaurantDatabase[i]);
+  }
+});
+
+ManhattanButtonElement.addEventListener("click", function(){
+  while (restaurantGridElement.firstChild) {
+    restaurantGridElement.removeChild(restaurantGridElement.firstChild);
+  }
+  restaurantGridElement = document.getElementById('restaurantGrid');
+  for (var i = 0; i < restaurantDatabase.length; i++) {
+    if (restaurantDatabase[i]['Location'] == "Manhattan"){
+      createElementProper(restaurantDatabase[i]);
+    }
+  }
+});
+
+BrooklynButtonElement.addEventListener("click", function(){
+  while (restaurantGridElement.firstChild) {
+    restaurantGridElement.removeChild(restaurantGridElement.firstChild);
+  }
+  restaurantGridElement = document.getElementById('restaurantGrid');
+  for (var i = 0; i < restaurantDatabase.length; i++) {
+    if (restaurantDatabase[i]['Location'] == "Brooklyn"){
+      createElementProper(restaurantDatabase[i]);
+    }
+  }
+});
 
